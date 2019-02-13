@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import RepeatGrid1Component from './repeatGrid1Component'
 
 class App extends Component {
   constructor(props) {
@@ -28,6 +29,7 @@ class App extends Component {
     return (
       <div className={this.state.clicked}>
         <button onClick = {this.handleClick}> click here!</button>
+        <RepeatGrid1Component />
       </div>
     );
   }

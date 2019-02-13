@@ -1,7 +1,12 @@
 .clicked {
-  background-color: red;
+  height: 10000px;
+}
+
+.clicked:hover{
+  border: 2px solid red;
 }
 
 .unclicked {
   background-color: blue;
+  height: 1000px;
 }
