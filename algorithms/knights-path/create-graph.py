@@ -4,6 +4,7 @@ Nate Weeks frebruary 2019
 '''
 
 def createArray(size):
+    '''given a size, creates a size by size 2d array'''
     array = []
     count = 0
     pos = 0
@@ -16,6 +17,7 @@ def createArray(size):
     return array
 
 def creategraph(array):
+    '''given a 2d array, creates a graph of every possible knight's move'''
     graph = {}
     size = len(array)
     knightmoves = [(2, 1), (2, -1), (-2, 1), (-2, -1), (1, 2), (1, -2), (-1, 2), (-1, -2)]
